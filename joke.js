@@ -5,7 +5,7 @@ let delivery = document.querySelector(".delivery");
 let submit = document.querySelector(".getJoke");
 
 let request = new XMLHttpRequest();
-
+alert("Click the button to get a joke!");
 submit.addEventListener("click", function (e) {
   e.preventDefault();
   let url = "https://v2.jokeapi.dev/joke/Any";
